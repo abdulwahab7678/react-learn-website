@@ -1,0 +1,46 @@
+nav.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99999;
+    background: black;
+    border-bottom: 1px solid white;
+  }
+  
+  a.navbar-brand {
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+  }
+  
+  nav.navbar {
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  
+  .navbar-collapse {
+    flex-grow: 0 !important;
+  }
+  
+  .navbar-nav .nav-item a.nav-link {
+    font-size: 1.6rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 8px 15px;
+    color: white;
+  }
+  
+  
+  .navbar a.phone {
+    font-size: 1.7rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+  }
+  

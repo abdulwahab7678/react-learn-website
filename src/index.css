@@ -1,0 +1,15 @@
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1rem;
+  color: #14335b;
+  background-color: #f1f1f1;
+}
+
+.container {
+  max-width: 1170px !important;
+}
