@@ -1,0 +1,32 @@
+.sec-3{
+    padding-top: 10px;
+  }
+  .sec-3 p {
+    font-size: 1.7rem;
+    line-height: 30px;
+  }
+  
+  .sec-3 .about-us-img {
+    background: black;
+    text-align: center;
+    padding: 40px 0;
+    width: 90%;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-top: 40px;
+  }
+
+  @media (max-width:991px) {
+    .sec-3 .content {
+        text-align: center;
+      }
+    
+      .sec-3 .about-us-img {
+        padding: 20px;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 40px;
+        border-radius: 15px;
+      }
+  }
+  

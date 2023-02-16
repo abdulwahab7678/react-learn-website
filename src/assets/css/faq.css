@@ -1,0 +1,53 @@
+.sec-4 {
+    padding: 100px 0px;
+  }
+  
+  .sec-4 .accordion {
+    border-radius: 15px !important;
+    overflow: hidden !important;
+  }
+  
+  .sec-4 .accordion-item {
+    background-color: #14335b;
+    color: white;
+  }
+  
+  .sec-4 button.accordion-button {
+    background: #14335b;
+    color: white;
+    font-size: 1.7rem;
+    font-weight: 700;
+    line-height: 35px;
+    padding: 20px 20px 15px 20px;
+  
+  }
+  
+  .sec-4 button.accordion-button:focus {
+    border-color: white !important;
+    outline: none !important;
+    box-shadow: 0 0 0 0.25rem white !important;
+  }
+  
+  .sec-4 .accordion-header {
+    padding-bottom: 0 !important;
+  }
+  
+  .sec-4 .accordion-button::after {
+    color: white !important;
+    filter: invert(1);
+  }
+  
+  .sec-4 .accordion-body {
+    font-size: 1.4rem;
+    line-height: 24px;
+  }
+  @media (max-width:991px) {
+    .sec-4 button.accordion-button {
+        padding: 12px;
+        line-height: 22px;
+      }
+      .sec-4 {
+        padding: 80px 0px;
+      }
+    
+  }

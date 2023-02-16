@@ -43,4 +43,62 @@ nav.navbar {
     color: white;
     font-family: sans-serif;
   }
+  .nav-link:hover {
+    transform: scale(1.1);
+    transition:0.3s all ease-in-out;
+  }
+  @media (max-width:991px) {
+    .navbar-nav {
+      padding-top: 10px;
+    }
   
+    .navbar-collapse {
+      border-top: 2px solid white;
+      margin-top: 15px;
+    }
+  
+    .navbar-nav .nav-item a.nav-link {
+      padding: 0;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+  
+    .navbar a.phone {
+      position: absolute;
+      right: 35px;
+      top: 15px;
+    }
+  
+    .navbar a.phone i {
+      border: 2px solid white;
+      padding: 9px;
+      border-radius: 5px;
+      font-size: 18px;
+      height: 38px;
+      width: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .navbar a.phone span {
+      display: none;
+    }
+  
+    .navbar-toggler {
+      border: 2px solid white;
+      margin-right: 50px;
+      padding: 0;
+    }
+  
+    .navbar-toggler-icon {
+      height: 32px;
+      width: 36px;
+    }
+  
+    .navbar-toggler-icon img {
+      height: 31px;
+      width: 29px;
+    }
+  
+  }
