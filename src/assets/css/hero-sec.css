@@ -1,4 +1,4 @@
-.sec-1 {
+ .sec1 {
     background-image: url(../images/header-bg-1.webp);
     background-size: cover;
     background-position: bottom;
@@ -8,40 +8,40 @@
     clip-path: ellipse(calc(100% + 600px) 100% at 50% -1%);
   }
   
-  .sec-1 .banner-opacity {
+  .sec1 .banner-opacity {
     height: 100%;
     width: 100%;
     background: #00000066;
   }
   
-  .sec-1 .container,
-  .sec-1 .container .row,
-  .sec-1 .container .row .col-lg,
+  .sec1 .container,
+  .sec1 .container .row,
+  .sec1 .container .row .col-lg,
   .sec-contact-banner .container,
   .sec-contact-banner .container .row,
   .sec-contact-banner .container .row .col-lg {
     height: 100%;
   }
   
-  .sec-1 .content {
+  .sec1 .content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 100%;
     padding-top: 180px;
   }
-  .sec-1 p {
+  .sec1 p {
     color: white;
   }
   
-  .sec-1 .card.card-body {
+  .sec1 .card.card-body {
     background: #14335b;
     width: 400px;
     border-radius: 5px;
     padding: 20px;
   }
   
-  .sec-1 .card.card-body a {
+  .sec1 .card.card-body a {
     color: white;
     text-decoration: none;
     font-size: 1.5rem;
@@ -52,11 +52,11 @@
     border-radius: 10px;
   }
   
-  .sec-1 .card.card-body a:first-child {
+  .sec1 .card.card-body a:first-child {
     margin-bottom: 10px;
   }
   @media (max-width:991px) {
-    .sec-1 .content {
+    .sec1 .content {
         text-align: center;
         padding-top: 180px;
       }

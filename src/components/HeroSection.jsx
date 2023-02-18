@@ -1,10 +1,12 @@
 import '../index.css'
 import '../assets/css/fonts.css'
-import '../assets/css/hero-sec.css'
-export default function HeroSection() {
+import  '../assets/css/hero-sec.css'
+ 
+export default function HeroSection(HeroSectionProps) {
+ 
     return (
         <div>
-            <section className="sec-1">
+            <section className='sec1'>
                 <div className="banner-opacity">
                     <div className="container">
                         <div className="row">

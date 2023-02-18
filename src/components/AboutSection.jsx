@@ -3,7 +3,11 @@ import '../index.css'
 import '../assets/css/fonts.css'
 import '../assets/css/about-section.css'
 
-export default function AboutSection() {
+export default function AboutSection(Props) {
+    const X = (Props)=>{
+        return  <li>{Props.li}</li>
+    }
+    const lists = ['li 1', 'li 2', 'li 3']
     return (
         <div>
             <section class="sec-3" id="aboutUs">
@@ -22,10 +26,8 @@ export default function AboutSection() {
                                     successfully work with UK businesses across all sectors and sizes.
                                 </p>
                                 <ul>
-                                    <li>Passionate about Delivery</li>
-                                    <li>Passionate about Innovation</li>
-                                    <li>Passionate about Safety</li>
-                                    <li>Passionate about Sustainability</li>
+                                   {lists.map((list)=> <X li={list}/>)}
+
                                 </ul>
                             </div>
                         </div>

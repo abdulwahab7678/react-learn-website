@@ -1,0 +1,33 @@
+.sec-contact-banner{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 550px;
+    -webkit-clip-path: ellipse(calc(100% + 500px) 100% at 50% -1%);
+    clip-path: ellipse(calc(100% + 600px) 100% at 50% -1%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sec-contact-banner.bg-contact{
+    background-image: url(../images/contact-us.jpg);
+  }
+  .sec-contact-banner.bg-service{
+    background-image: url(../images/services-bg.jpg);
+  
+  }
+  .sec-contact-banner .banner-opacity {
+    height: 100%;
+    width: 100%;
+    background: #0000008c;
+  }
+  .sec-contact-banner .content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  }
+  
+  .sec-contact-banner .content h1{
+    text-transform: capitalize;
+  }
