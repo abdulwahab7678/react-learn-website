@@ -9,7 +9,7 @@ export default function HomePage() {
       <div>
         <HeroSection />
         <ServiceSection />
-        <AboutSection />
+        <AboutSection showFeature={true}>this comes after container div</AboutSection>
         <FAQ />
       </div>
     )
