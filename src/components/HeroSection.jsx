@@ -22,8 +22,8 @@ export default function HeroSection(HeroSectionProps) {
                                         <div >
                                             <div className="collapse collapse-horizontal" id="collapseWidthExample">
                                                 <div className="card card-body">
-                                                    <a href="./services.html#secEnergy">Business Energy</a>
-                                                    <a href="./services.html#secGas">Business Gas</a>
+                                                    <a href="/services#secEnergy">Business Energy</a>
+                                                    <a href="/services#secGas">Business Gas</a>
                                                 </div>
                                             </div>
                                         </div>

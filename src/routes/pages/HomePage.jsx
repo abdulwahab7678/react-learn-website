@@ -10,7 +10,7 @@ export default function HomePage() {
       <div>
         <HeroSection />
         <ServiceSection />
-        <AboutSection showLists={true} aboutUsImg={aboutUsImg} />
+        <AboutSection showLists={true} aboutUsImg={aboutUsImg} secId='aboutUs'/>
         {/* <AboutSection showFeature={true}>this comes after container div</AboutSection> */}
         <FAQ />
       </div>

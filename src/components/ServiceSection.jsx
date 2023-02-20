@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import flashImg from '../assets/images/flash.svg'
 import fireImg from '../assets/images/fire.svg'
 import '../index.css'
@@ -31,7 +32,7 @@ export default function ServiceSection(props) {
                             </div>
                         </div>
                         <div className="col-lg-12 col-md-12 col-sm-12">
-                            <a className="main-btn" href="./services.html">read more</a>
+                            <Link to='/services' className="main-btn" >read more</Link>
                         </div>
                     </div>
                 </div>

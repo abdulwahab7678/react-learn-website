@@ -26,7 +26,7 @@ export default function Navbar(props) {
                 <a className="nav-link" href="#aboutUs">about us</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="./contact-us.html">contact us</a>
+                <a className="nav-link" href="/contact-us.html">contact us</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link text-uppercase pe-0" href="#faq's">faq's</a>

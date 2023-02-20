@@ -3,7 +3,7 @@ import '../index.css'
 import '../assets/css/fonts.css'
 import '../assets/css/about-section.css'
 
-export default function AboutSection({ showFeature = false , aboutUsImg , children  }) {
+export default function AboutSection({secId , showFeature = false , aboutUsImg , children  }) {
     const X = (Props)=>{
         return  <li>{Props.li}</li>
     }
@@ -11,7 +11,7 @@ export default function AboutSection({ showFeature = false , aboutUsImg , childr
    
     return (
         <div>
-            <section class="sec-3" id="aboutUs">
+            <section class="sec-3" id={secId}>
                 <div class="container">
                     <div class="row">
                     <div class="col-lg-6 col-md-12 col-sm-12">
