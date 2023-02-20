@@ -8,14 +8,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  .sec-contact-banner.bg-contact{
-    background-image: url(../images/contact-us.jpg);
-  }
-  .sec-contact-banner.bg-service{
     background-image: url(../images/services-bg.jpg);
-  
   }
+ 
   .sec-contact-banner .banner-opacity {
     height: 100%;
     width: 100%;

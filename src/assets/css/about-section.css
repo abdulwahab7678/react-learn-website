@@ -1,21 +1,27 @@
 .sec-3{
-    padding-top: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
+.sec-3 h2.mainHeading{
+font-size: 4.5rem;
+  text-align: center;
+}
   .sec-3 p {
     font-size: 1.7rem;
     line-height: 30px;
   }
   
   .sec-3 .about-us-img {
-    background: black;
+    width: 100%;
     text-align: center;
-    padding: 40px 0;
-    width: 90%;
-    border-radius: 30px;
-    margin-left: auto;
-    margin-top: 40px;
-  }
+    height: 450px;
+    margin-top: 30px;
+    }
 
+  .sec-3 .about-us-img img{
+    border-radius: 30px;
+height: 100%;
+  }
   @media (max-width:991px) {
     .sec-3 .content {
         text-align: center;

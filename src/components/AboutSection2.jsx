@@ -3,7 +3,7 @@ import '../index.css'
 import '../assets/css/fonts.css'
 import '../assets/css/about-section.css'
 
-export default function AboutSection({ showLists = false ,showHeading = false ,mainHeading, aboutUsImg , children  }) {
+export default function AboutSection({ showFeature = false , aboutUsImg , children  }) {
     const X = (Props)=>{
         return  <li>{Props.li}</li>
     }
@@ -14,16 +14,12 @@ export default function AboutSection({ showLists = false ,showHeading = false ,m
             <section class="sec-3" id="aboutUs">
                 <div class="container">
                     <div class="row">
-                        <div className="col-12">
-                            {showHeading && (
-                                <h2 className='mainHeading'>{mainHeading}</h2>
-                            )
-
-                            }
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                            <div class="about-us-img">
+                                <img class="img-fluid" src={aboutUsImg} alt="" />
+                            </div>
                         </div>
                         <div class="col-lg-6 col-md-12 col-sm-12">
-                        {children}
-                            
                             <div class="content">
                                 <h2>Why should I compare my utilities with Love Energy Savings</h2>
                                 <p>We offer a fully comprehensive service, finding you the best business gas and business electricity
@@ -35,21 +31,16 @@ export default function AboutSection({ showLists = false ,showHeading = false ,m
                                     utility experts are available to help you and provide services based on the specifics of your business. We
                                     successfully work with UK businesses across all sectors and sizes.
                                 </p>
-                                {showLists && (
+                                {showFeature && (
                                    <ul>
                                        {lists.map((list)=> <X li={`Passionate about ${list}`}/>)}
 
                                     </ul>
-
                                 )}
                             </div>
                             
                         </div>
-                        <div class="col-lg-6 col-md-12 col-sm-12">
-                            <div class="about-us-img">
-                                <img class="img-fluid" src={aboutUsImg} alt="" />
-                            </div>
-                        </div>
+                      
                     </div>
                 </div>
             </section>

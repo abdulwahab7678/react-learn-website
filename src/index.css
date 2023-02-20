@@ -22,12 +22,13 @@ h1 {
 }
 
 h2 {
-  font-size: 3.2rem;
+  font-size: 3.5rem;
   font-weight: 700;
   letter-spacing: 1px;
   line-height: 45px;
   text-transform: capitalize;
   padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 p {
